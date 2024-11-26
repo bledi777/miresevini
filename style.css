@@ -1,13 +1,8 @@
 :root {
-
     --primary: rgba(132, 106, 221, 0.9);
-    --secondary: rgba(132, 106, 221, 0.9);
-    ;
-  
+    --secondary: rgba(132, 106, 221, 0.9); 
     --pane-padding: 5px 42px;
   }
-  
-  
   body {
     margin: 0;
     background: linear-gradient(135deg, var(--primary), var(--secondary)), url(img/anders-jilden-nxCtO8W9JLo-unsplash.jpg) no-repeat center center / cover;
@@ -16,23 +11,16 @@
     font-optical-sizing: auto;
     color: black;
   }
-  
   * {
     scroll-behavior: smooth;
     box-sizing: border-box;
   }
-  
-  /* Chrome, Safari, Edge, Opera */
   input::-webkit-outer-spin-button,
   input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
   }
-  
-  
-  
-  
-  .input-container {
+    .input-container {
     position: relative;
     margin: 70px 20px;
   
@@ -118,7 +106,6 @@
   
   h1 {
     text-align: center;
-
     font-size: 50px;
     text-align: center;
     font-weight: 300;
@@ -249,16 +236,11 @@
     .wrapper{
       padding: 0%;
       margin: 7%;
-   
     }
     button.learn-more .circle {
       width: 100%;
     }
     button.learn-more .button-text{
       color: #fff;
-    }
-  
-    
-    
-  }
-  
+    }  
+  }  
